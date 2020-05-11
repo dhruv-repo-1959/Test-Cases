@@ -9,32 +9,32 @@ import main.LeapYear;
 public class LeapYearTest {
 
 	@Test
-	public void test2000LeaveYear() {
+	public void test2000LeapYear() {
 		assertEquals(true, LeapYear.isLeapYear(2000));
 	}
 	
 	@Test
-	public void test1900LeaveYearNot() {
+	public void test1900LeapYearNot() {
 		assertEquals(false, LeapYear.isLeapYear(1900));
 	}
 	
 	@Test
-	public void test2100LeaveYearNot() {
+	public void test2100LeapYearNot() {
 		assertEquals(false, LeapYear.isLeapYear(2100));
 	}
 	
 	@Test
-	public void test2008LeaveYear() {
+	public void test2008LeapYear() {
 		assertEquals(true, LeapYear.isLeapYear(2008));
 	}
 
 	@Test
-	public void test2019LeaveYearNot() {
+	public void test2019LeapYearNot() {
 		assertEquals(false, LeapYear.isLeapYear(2019));
 	}
 	
 	@Test
-	public void testLeaveYearZero() {
+	public void testLeapYearZero() {
 		assertEquals(false, LeapYear.isLeapYear(0));
 	}
 }
